@@ -1,0 +1,29 @@
+.header{
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.diffColor{
+    color: #00bd95;
+    font-size: 18px;
+    font-weight: 300;
+    display: inline;
+}
+
+.contentDiv{
+    padding-left: 14%;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    background-color: #16161c;
+}
+
+.flex{
+    display: flex;
+}
+
+.diffSize{
+    color: white;
+    font-size: 35px;
+    font-weight: 700;
+}

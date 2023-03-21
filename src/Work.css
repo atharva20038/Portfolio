@@ -1,0 +1,30 @@
+.diffColour{
+    color: #00bd95;
+    font-size: 35px;
+    font-weight: 600;
+    display: inline;
+}
+
+.workDiv{
+    background-color: #1e1e21;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
+
+.workDiv h2{
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+    display: inline;
+}
+
+.desc{
+    color: white;
+    text-align: center;
+}
+
+.IntroDiv{
+    width: 30%;
+    display: inline-block;
+}

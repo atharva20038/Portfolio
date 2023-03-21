@@ -1,0 +1,147 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 7vmin;
+  pointer-events: none;
+  color: aquamarine;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.navBar {
+  color: white;
+  font-size: 17px;
+  list-style: none;
+  display: flex;
+  margin-left: 2%;
+}
+
+.navBar a{
+  color:white;
+  font-size: 15px;
+  padding-left: 30px;
+  padding-right: 40px ;
+  font-family: 'Inter', sans-serif;
+  border: none;
+  text-decoration: none;
+}
+
+.navBar a:hover, .navBar a:active{
+  color: #00bd95;
+}
+
+.Introduction{
+  color: white;
+  margin-left: 15%;
+  margin-top: 10%;
+  width: 55%;
+}
+
+.Introduction h2{
+  font-weight: 500;
+  color: white;
+  font-size: 20px;
+  margin-top: -3%;
+}
+
+.Introduction h2 p{
+  display: inline;
+  color: #00bd95;
+  font-weight: 300;
+}
+
+.IntroductionText{
+  color: white;
+  font-size: 15px;
+  font-weight: 300;
+  margin-top: 2%;
+}
+
+.colorChange{
+  color: #00bd95;
+  font-size: 40px;
+  margin-top: 2%;
+  font-weight: 900;
+}
+
+.navBarParent{
+  padding-top: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 6%;
+  margin-right: 6%;
+}
+
+.MainDiv{
+  padding-left: 2%;
+  padding-right: 20%;
+  /* margin-right: 8vw; */
+  background-color:#1e1e21;
+  padding-bottom: 5%;
+}
+
+.letsTalk{
+  color: white;
+  background-color: #00bd95;
+  font-size: 17.5px;
+  font-weight: 300;
+  margin-top: 2%;
+  margin-left: 15%;
+  border-radius: 6px;
+  padding-top: 0.8%;
+  padding-bottom: 0.8%;
+  padding-left: 1%;
+  padding-right: 1%;
+  width: 15%;
+  box-shadow: 0px 6px 10px -2px #00bd95;
+  border:none;
+}
+
+.Social{
+  margin-left: 15%;
+  margin-top: 3%;
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+}
+
+.Social p{
+  font-size: 17px;
+}
+
+.IconSocial{
+  margin-left: 1.4%;
+  padding-left: 2%;
+
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
